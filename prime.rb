@@ -5,4 +5,9 @@ def prime?(x)
         is_prime = false
       end
   end
+    if is_prime
+      true
+    else
+      false
+    end
 end
