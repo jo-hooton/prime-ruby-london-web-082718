@@ -1,5 +1,8 @@
 def prime?(x)
-  Prime.each(x) do |prime|
-  prime?
+  if
+   {(x % 2 != 0) && (x % 3 != 0)}
+    true
+  else
+   false
   end
 end
