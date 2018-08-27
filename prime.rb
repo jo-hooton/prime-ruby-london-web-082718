@@ -1,13 +1,9 @@
 def prime?(x)
-  is_prime = true
-    for i in 2..x-1
-      if x % i == 0
-        is_prime = false
-      end
-  end
-    if is_prime
-      true
-    else
+  if x <= 1
       false
-    end
+  elsif x == 2
+      true
+  else
+      (2..x/2).none? { |i| x % i == 0}
+  end
 end
