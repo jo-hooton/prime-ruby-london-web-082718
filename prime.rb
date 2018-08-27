@@ -5,5 +5,7 @@ def prime?(x)
    x <= -1
     return false
   elsif x.is_even?
+    return false
+  else
     return true
 end
