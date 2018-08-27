@@ -4,7 +4,7 @@ def prime?(x)
   elsif
    x <= -1
     return false
-  elsif x.is_even?
+  elsif x.even?
     return false
   else
     return true
