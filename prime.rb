@@ -1,7 +1,7 @@
 def prime?(x)
-  if  x == 2 || x != 1
+  if  x == 2 || x != 1 || x != 0 || x != -1
     return true
-  elsif x == 0 || x.negative
+  elsif x == 0 || 
     return false
   elsif x.even?
     return false
