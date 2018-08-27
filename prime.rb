@@ -1,6 +1,8 @@
 def prime?(x)
-  if  x == 2 || x != 1 || x != 0 || x != -1
+  if  x == 2 || x != 1
     return true
+  elseif x == 0 || x == -1
+    return false
   elsif x.even?
     return false
   else
